@@ -87,6 +87,18 @@ footer {
     flex-direction: column;
 }
 /* Class Selectors */
+.work {
+    display: flex;
+    justify-content: center;
+}
+
+.run-buddy {
+    display: flex;
+    border: 5px solid var(--border-color);
+    width: 75vw;
+    height: auto;
+}
+
 .container {
     margin: 20px;
     padding: 20px;
@@ -124,3 +136,5 @@ footer {
     text-align: center;
     align-items: flex-end;
 }
+
+/* ID Selectors */
