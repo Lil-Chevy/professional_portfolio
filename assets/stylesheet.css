@@ -3,10 +3,11 @@
     --border-color:rgba(96, 103, 65);
     --text-color: rgb(48, 63, 63);
     --background-color: rgba(227, 218, 201);
+    --header-text: rgb(0, 0, 0);
     --hover-text: rgba(48, 0, 0);
 }
 /* universal Selector */
-* {
+* { font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -37,10 +38,11 @@ header {
 }
 
 h1 {
-    color: var(--text-color);
+    color: var(--background-color);
     margin: 20px;
     font-display: center;
     text-align: center;
+    border-bottom: 5px solid var(--border-color);
 }
 
 nav {
@@ -64,7 +66,7 @@ p {
 }
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--header-text);
     transform: rotate(-180deg);
     font-size: 25px;
 }
@@ -85,11 +87,15 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(162, 160, 147);
 }
 /* Class Selectors */
 .work {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
 }
 
 .run-buddy {
@@ -97,6 +103,31 @@ footer {
     border: 5px solid var(--border-color);
     width: 75vw;
     height: auto;
+    border-radius: 25px 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.code-refactor {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid var(--border-color);
+    width: 30vw;
+    height: auto;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.robot-gladiators {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid var(--border-color);
+    width: 30vw;
+    height: auto;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .container {
@@ -106,13 +137,15 @@ footer {
     height: auto;
     border: 3px solid var(--border-color);
     flex-wrap: wrap;
+    background-color: rgb(162, 160, 147);
 }
 .class-photo {
     width: 200px;
     height: 200px;
     flex-wrap: wrap;
     border: 5px solid var(--border-color);
-    border-radius: 1;
+    box-shadow: 10px 0px 40px 10px rgba(0, 0, 0);
+    border-radius: 25px;
 }
 
 .contact-me{
@@ -129,12 +162,14 @@ footer {
     border: 5px solid var(--border-color);
     padding: 0px;
     max-width: max-content;
+    border-radius: 10px;
 }
 
 .contact-info {
     border: 5px solid var(--border-color);
     text-align: center;
     align-items: flex-end;
+    border-radius: 10px;
 }
 
 /* ID Selectors */
