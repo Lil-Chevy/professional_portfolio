@@ -186,4 +186,60 @@ footer {
     border-radius: 10px;
 }
 
-/* ID Selectors */
+/* media*/
+/* 980 and above */
+@media screen and (max-width: 980px) {
+    header {
+        height: 25Vh;
+    }
+    .embeded {
+        width: 45vh;
+        height: 35vh;
+    }
+}
+
+/* 768 and above */
+@media screen and (max-width: 768px) {
+    header {
+        height: 15Vh;
+    }
+    .class-photo {
+        width: 10vh;
+        height: auto;
+    }
+    .embeded {
+        width: 45vh;
+        height: 35vh;
+    }
+}
+
+/* 575 and above */
+@media screen and (max-width: 575px){
+    header {
+        height: 10Vh;
+    }
+    header nav ul {
+        font-size: smaller;
+    }
+    h1 {
+        font-size: large;
+        color: var(--header-text);
+                margin: 1px;
+    }
+    a {
+        font-size: small;
+
+    }
+    .run-buddy {
+        width: 50vw;
+        height: auto;
+    }
+    .map {
+        width: auto;
+        height: auto;
+    }
+    .embeded {
+        width: 50vw;
+        height: auto;
+    }
+}
