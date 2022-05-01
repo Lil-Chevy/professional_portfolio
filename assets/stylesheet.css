@@ -226,6 +226,10 @@ footer {
         color: var(--header-text);
                 margin: 1px;
     }
+    .class-photo {
+            width: 5vh;
+            height: auto;
+    }
     a {
         font-size: small;
 
