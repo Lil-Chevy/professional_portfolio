@@ -98,6 +98,14 @@ footer {
     align-items: center;
 }
 
+.lower-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
 .run-buddy {
     display: flex;
     border: 5px solid var(--border-color);
