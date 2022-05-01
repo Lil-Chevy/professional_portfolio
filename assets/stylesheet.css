@@ -28,6 +28,7 @@ header{
     margin: 20px;
     padding: 20px;
 }
+/* header image */
 header {
     padding: 25px;
     background-image: url(./images/hygge-flooring.jpg);
@@ -36,7 +37,7 @@ header {
     background-repeat: no-repeat;
     width: auto;
 }
-
+/* h1 text */
 h1 {
     color: var(--background-color);
     margin: 20px;
@@ -44,7 +45,7 @@ h1 {
     text-align: center;
     border-bottom: 5px solid var(--border-color);
 }
-
+/* navigation menu */
 nav {
     flex-wrap: wrap;
     width: auto;
@@ -53,6 +54,7 @@ nav {
     font: bold;
     font-size: larger;
 }
+/* header nav ul orientation */
 header nav ul {
     display: flex;
     justify-content: space-between;
@@ -60,26 +62,30 @@ header nav ul {
     list-style: none;
     margin: 20px;
 }
+/* paragraph settings */
 p {
     font-size: 16px;
     font-style: var(--text-color);
 }
+/* articles */
 a {
     text-decoration: none;
     color: var(--header-text);
     transform: rotate(-180deg);
     font-size: 25px;
 }
-
+/* hover for contact information and navigation menu */
 a:hover, .contact-info:hover {
     color: var(--hover-text);
 }
+/* h2  settings */
 h2 {
     border-bottom: 3px solid var(--border-color);
     width: fit-content;
     margin: 5px;
     padding: 5px;
 }
+/* footer */
 footer {
     border: 5px solid var(--border-color);
     margin: 20px;
@@ -97,14 +103,14 @@ footer {
     align-content: space-around;
     align-items: center;
 }
-
+/* .lower-section for work menu */
 .lower-section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 }
-
+/* run-buddy image settings */
 .run-buddy {
     display: flex;
     border: 5px solid var(--border-color);
@@ -114,7 +120,7 @@ footer {
     padding: 5px;
     margin: 5px;
 }
-
+/* code-refactor images settings */
 .code-refactor {
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +131,7 @@ footer {
     padding: 5px;
     margin: 5px;
 }
-
+/* robot gladiator image settings */
 .robot-gladiators {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +142,7 @@ footer {
     padding: 5px;
     margin: 5px;
 }
-
+/* settings for all main containers */
 .container {
     margin: 20px;
     padding: 20px;
@@ -146,6 +152,7 @@ footer {
     flex-wrap: wrap;
     background-color: rgb(162, 160, 147);
 }
+/* my photo settings  */
 .class-photo {
     width: 200px;
     height: 200px;
@@ -154,7 +161,7 @@ footer {
     box-shadow: 10px 0px 40px 10px rgba(0, 0, 0);
     border-radius: 25px;
 }
-
+/* footer contact information box  */
 .contact-me{
     display: flex;
     align-items: center;
@@ -163,7 +170,7 @@ footer {
     margin: auto;
     padding: auto;
 }
-
+/* nested google map */
 .map {
     margin: 5px;
     border: 5px solid var(--border-color);
@@ -171,7 +178,7 @@ footer {
     max-width: max-content;
     border-radius: 10px;
 }
-
+/* contact information at the bottom */
 .contact-info {
     border: 5px solid var(--border-color);
     text-align: center;
