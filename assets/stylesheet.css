@@ -154,7 +154,7 @@ footer {
   align-items: center;
   border: 5px solid var(--border-color);
   width: 30vw;
-  height: 30vh;
+  max-height: 180px;
   border-radius: 25px;
   padding: 5px;
   margin: 5px;
