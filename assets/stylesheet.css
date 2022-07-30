@@ -159,6 +159,19 @@ footer {
   padding: 5px;
   margin: 5px;
 }
+
+.bugBash {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid var(--border-color);
+  width: 30vw;
+  max-height: 180px;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
+}
 /* settings for all main containers */
 .container {
   margin: 20px;
